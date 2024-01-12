@@ -1,0 +1,119 @@
+.all-cobertura{
+    background-color: var(--azul-palido);
+}
+.icone-seta-cobertura{
+    color: var(--preto);
+}
+.top-cobertura{
+    font-size: 19px;
+    color: var(--bootstrap-primary-light);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px #999;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+    .top-cobertura-inside:hover .icone-seta-cobertura{
+        color:var(--bootstrap-primary-light);
+    }
+.top-cobertura-inside{
+    text-align: center;
+}
+.bottom-cobertura{
+    box-shadow: 1px 1px 3px #999;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+.bottom-cobertura-title{
+    display: flex;
+    justify-content: center;
+}
+.cidades-cobertura-area{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+    .cidades-cobertura-area ul{
+        list-style: none;
+    }
+    .cidades-cobertura-area ul li{
+        color: var(--preto);
+        padding:5px;
+    }
+    .cidades-cobertura-area ul li::after{
+        display:flex;
+        content:"";
+        width:100%;
+        height:1px;
+        background-color: var(--bootstrap-primary-light);
+    }
+.card-loja-mgp{
+    box-shadow: 1px 1px 5px #bbb;
+    display:flex!important;
+    flex-direction: row!important;
+}
+.img_loja_mgp{
+    width:30%;
+    object-fit: cover;
+}
+.area-pin-loja{
+    background-color: var(--azul-palido);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+.area-pin-loja img{
+    margin:25px;
+    width: 100px;
+}
+.card-lojas{
+    padding:16px;
+    display:flex;
+    justify-content: center;
+}
+@media(max-width:767px){
+    .cidades-cobertura-area ul li{
+        padding:5px 0px;
+        font-size: 15px;
+    }
+    .img_loja_mgp{
+        width:100%;
+    }
+    .card-loja-mgp{
+        display:flex!important;
+        flex-direction: column!important;
+    }
+
+}
+@media(max-width:426px){
+    .top-cobertura-inside h2{
+        font-size: 26px;
+    }
+    .bottom-cobertura-title h2{
+        font-size: 24px;
+    }
+    .cidades-cobertura-area{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cidades-cobertura-area ul{
+        padding-left:10%;
+        margin:0px;
+    }
+    .cidades-cobertura-area ul li::after{
+        width:90%;
+    }
+}
+@media(max-width:375px){
+    .card-loja-mgp h4{
+        font-size: 20px;
+    }
+    .card-loja-mgp h6{
+        font-size: 15px;
+    }
+    .card-loja-mgp p{
+        font-size: 14px;
+    }
+}

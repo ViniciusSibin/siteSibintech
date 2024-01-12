@@ -1,0 +1,3 @@
+style.css -> todo o css que é exigido na página inicial (header, footer, planos, banner, etc);
+
+ 

@@ -1,0 +1,26 @@
+.top-tConosco{
+    color: var(--bootstrap-primary-light);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px #999;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+.bottom-tConosco{
+    box-shadow: 1px 1px 3px #999;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+.area-vagas-tConosco a{
+    margin-top: 5px;
+    border-radius: 7px;
+    padding:10px 30px;
+    font-size: 20px;
+    background-color: var(--azul-principal);
+    color: var(--branco);
+}
+.area-vagas-tConosco a:hover{
+    color: var(--branco);
+    background-color: #0d569c;
+}

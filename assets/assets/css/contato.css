@@ -1,0 +1,91 @@
+#contato{
+    background: var(--azul-palido);
+}
+
+.contato-row{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+    background-color: var(--branco);
+}
+.contato-colunas{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.icone-telefone-contato{
+    color: var(--azul-principal);
+}
+.titulo-contatos{
+    font-weight: bold ;
+}
+.titulo-contatos::after{
+    display:flex;
+    position: relative;
+    content:" ";
+    height: 2px;
+    width:100%;
+    background-color: var(--azul-principal);
+}
+.wpp-contato-icone{
+    width:25px;
+}
+.horario-ctt-topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.relogio-ctt-icone{
+    color: var(--bootstrap-primary);
+    font-size:50px;
+}
+.contato-colunas a{
+    color: var(--preto);
+}
+.contato-colunas a:hover *{
+    color: var(--azul-principal);
+}
+.container_ctt_financeiro{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.atendimento-horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+    .atendimento-horarios h4::after{
+        display:flex;
+        position: relative;
+        content:" ";
+        height: 2px;
+        width:100%;
+        background-color: var(--azul-principal);
+    }
+    .atendimento-horarios p{
+        text-align: left;
+        font-size: 18px;
+        margin:4px 0px;
+    }
+
+@media(max-width: 991px){
+    .contato-colunas{
+        margin:12px;
+        padding:5px;
+    }
+    .atendimento-horarios{
+        margin:10px;
+        border-bottom: 1px solid #aaa;
+    }
+    .container_ctt_financeiro{
+        border-left: 0px;
+        border-right: 0px;
+    }
+    
+}
+@media(max-width: 375px){
+    .email-ctt{
+        font-size: 17px;
+    }
+}
