@@ -167,56 +167,26 @@ strong, azul{
     .redes-footer a{
         color:#212529;
     }
+
 /*BANNERS*/
-    .container-banner{
-        width: 100%;
-    }
+.container-banner{
+    width: 100%;
+}
 /*PLANOS DE INTERNET*/
+.pre_plano{
+    font-size: 45px !important;
+}
 .planos{
     border:1px solid #aaa;
-    border-radius: 5px;
+    border-radius: 20px;
     margin: 7px;
 }
 .planos img{
     width: 50px;
+    border-radius: 20px;
 }
-.topo_plano{
-    color: var(--branco);
-    padding-top:15px;
-    display:flex;
-    justify-content: center;
-    background-color: var(--azul-principal);
-}
-.planos h1{
-    margin: 0px;
-}
-.texto_fibra, .texto_fibra_200mb{
-    padding:5px;
-    margin:0px;
-    font-size: 14px;
-    background-color: var(--azul-palido);
-    color: var(--preto);
-}
-.texto_fibra_200mb{
-    background-color: var(--laranja-principal);
-    color: var(--branco);
-}
-.titulo_megas{
-    color: var(--branco);
-    font-size: 60px;
-    margin:0px;
-}
-.texto-megas{
-    display:flex;
-    align-items:end;
-    margin:0px;
-    padding:0px;
-    font-size: 25px;
-    text-align: center;
-}
-.icone_wifi{
-    color: var(--laranja-principal);
-    font-size:50px;
+.planos p{
+    margin: 8px;
 }
 .texto-upload{
     font-size: 13px;
@@ -227,57 +197,60 @@ strong, azul{
     padding-bottom: 10px;
 }
 .beneficios_planos p{
-        font-size: 18px;
-        padding-left: 10px;
-        width:99%;
-        margin: 0px;
-        border-bottom: 1px solid #ddd;
-        padding-top: 15px;
-        font-weight: 400;
-    }
-    .icones_beneficios_planos{
-        color: var(--azul-principal);
-    }
+    font-size: 18px;
+    padding-left: 10px;
+    width:99%;
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+    font-weight: 400;
+}
+.icones_beneficios_planos{
+    color: var(--azul-principal);
+}
+
 .container_assineJa a{
     color: var(--branco);
+    border-radius: 0px 0px 20px 20px 
 }
-    .assineJa_inside{
-        background-color: var(--azul-palido);
-        display:flex;
-        justify-content: center;
-        padding:15px 10px;
-        margin-bottom: 0px;
-    }
-    .assineJa_inside:hover{
-        color: var(--branco);
-    }
-    .assineJa_inside h4{
-        transition: var(--transicao-principal);
-        font-size: 23px;
-        border-radius: 7px;
-        padding:5px 70px;
-        background-color: var(--bootstrap-primary);
-        margin-bottom: 0px;
-    }
-    .assineJa_inside h4:hover{
-        transition: var(--transicao-principal);
-        color: var(--branco);
-        background-color: var(--azul-principal-drk);
-    }
-    .container_preco{
-        justify-content: center;
-        align-items: flex-end;
-        display:flex;
-        padding:20px;
-    }
-    .container_preco h1{
-        font-size: 50px;
-    }
-    .container_preco p{
-        margin-right:3px;
-        margin-bottom: 5px;
-        font-size: 18px;
-    }
+.assineJa_inside{
+    background-color: var(--azul-palido);
+    display:flex;
+    justify-content: center;
+    padding:15px 10px;
+    margin-bottom: 0px;
+}
+.assineJa_inside:hover{
+    color: var(--branco);
+}
+.assineJa_inside h4{
+    transition: var(--transicao-principal);
+    font-size: 23px;
+    border-radius: 7px;
+    padding:5px 70px;
+    background-color: var(--bootstrap-primary);
+    margin-bottom: 0px;
+}
+.assineJa_inside h4:hover{
+    transition: var(--transicao-principal);
+    color: var(--branco);
+    background-color: var(--azul-principal-drk);
+}
+.container_preco{
+    justify-content: center;
+    align-items: flex-end;
+    display:flex;
+    padding:20px;
+}
+.container_preco h1{
+    font-size: 50px;
+}
+.container_preco p{
+    margin-right:3px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
 /*BENEFICIOS DE SER MGP*/
 .container-beneficios{
     background-image: url(../img/bg-site1.png);
