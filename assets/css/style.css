@@ -256,6 +256,7 @@ strong, azul{
     margin: 0;
     padding: 0;
     background: #333;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -269,10 +270,11 @@ strong, azul{
     position: relative;
     cursor: pointer;
     margin: 1%;
+    width: 100%;
 }
 
 .container_beneficios .card_beneficios .face{
-    width: 300px;
+    width: 100%;
     height: 200px;
     transition: 0.5s;
 }
@@ -396,17 +398,12 @@ strong, azul{
     .logo_img{
         width: 115px;
     }
-    .beneficios-card{
-        padding:5px;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+    .container_beneficios .card_beneficios {
+        width: 48%; /* Adjust the width for larger screens */
     }
-        .beneficios-card h4{
-            margin-bottom: 0px;
-            font-size: 17px;
-        }
+    .container_beneficios {
+        flex-wrap: wrap;
+    }
     .titulo-teste img{
         padding-left:8px;
         width: 102px;

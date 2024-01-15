@@ -53,7 +53,7 @@
 <body>
     <header class="border-bottom" id="inicio">
         <div class="container mt-1 container_header pt-1">
-            <a href="index.php"><img src="assets/img/Logomarca_branco.png" class="logo_img mb-1" alt="Logo da Sibintech" oncontextmenu="return false;"></a>
+            <a href="index.php"><img src="assets/img/Logomarca.png" class="logo_img mb-1" alt="Logo da Sibintech" oncontextmenu="return false;"></a>
             <nav class="navbar_all">
                 <ul class="list-unstyled menu_header">
                     <li><a href="index.php" title="Página inicial">Home</a></li>
@@ -63,9 +63,9 @@
                 </ul>
             </nav><!--NAVBAR MENU NORMAL-->
             <div class="icones-redes pt-3">
-                <a href="https://www.instagram.com/sibintech/" target="_blank" title="Instagram"><img src="assets/icones/instagram_branco.png" oncontextmenu="return false;" alt="instagram icone"></a>
-                <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><img src="assets/icones/whatsapp_branco.png" oncontextmenu="return false;" alt="whatsapp icone"></a>
-                <a href="https://www.linkedin.com/company/sibintech/mycompany/" target="_blank"><img src="assets/icones/linkedin_branco.png" alt="Linkedin icone" oncontextmenu="return false;"></a>
+                <a href="https://www.instagram.com/sibintech/" target="_blank" title="Instagram"><img src="assets/icones/instagram.png" oncontextmenu="return false;" alt="instagram icone"></a>
+                <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><img src="assets/icones/whatsapp.png" oncontextmenu="return false;" alt="whatsapp icone"></a>
+                <a href="https://www.linkedin.com/company/sibintech/mycompany/" target="_blank"><img src="assets/icones/linkedin.png" alt="Linkedin icone" oncontextmenu="return false;"></a>
             </div><!--ICONES REDES SOCIAIS-->
             <nav class="navbar-mobile">
                 <div class="dropdown-mobile">
