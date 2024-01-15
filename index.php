@@ -51,7 +51,7 @@
     <title>Sibintech Monitoring</title>
 </head>
 <body>
-    <header class="border-bottom" id="inicio">
+    <header class="background_header" id="inicio">
         <div class="container mt-1 container_header pt-1">
             <a href="index.php"><img src="assets/img/Logomarca.png" class="logo_img mb-1" alt="Logo da Sibintech" oncontextmenu="return false;"></a>
             <nav class="navbar_all">
@@ -87,14 +87,14 @@
     </header><!--HEADER-->
     <?php require("$pagina")?><!--Requisições das páginas por PHP-->
     <footer class="bg-footer">
-        <div class="container bg-secondary pt-3">
+        <div class="container  pt-3">
             <div class="row">
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
-                    <a href="#inicio" title="Logo Sibintech"><img class="logo_footer" src="assets/img/Logomarca.png" alt="Logo da Sibintech" width="200" oncontextmenu="return false;"></a>
+                    <a href="#inicio" title="Logo Sibintech"><img class="logo_footer" src="assets/img/Logomarca_branco.png" alt="Logo da Sibintech" width="200" oncontextmenu="return false;"></a>
                 </div>
                 <div class="col-md-4 contatos-footer">
                     <h4>Contatos</h4>
-                    <p><i class="fa-solid fa-phone icones_fontawesome"></i>Telefone: (44)9 9909-1762 | <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp text-dark"></i></a></p>
+                    <p><i class="fa-solid fa-phone icones_fontawesome"></i>Telefone: (44)9 9909-1762 | <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp text-white"></i></a></p>
                     <p><i class="fa-solid fa-envelope icones_fontawesome"></i>E-Mail: contato@sibintech.com.br</p>
                 </div>
                 <div class="col-md-4 redes-footer">

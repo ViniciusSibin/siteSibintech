@@ -12,7 +12,8 @@
     --azul-pergunta: #409fe7;
     --laranja-principal: #f09101;
     --speedtest: #141526;
-    --bg-footer: #343a40;
+    --bg-footer: #333;
+    --bg-claro: #fefefe;
     --branco: #fff;
     --preto: #000;
 }
@@ -22,6 +23,9 @@
 }
 .display_block{
     display:block;
+}
+.background_header{
+    background: linear-gradient(#fefefe, #9faaae);
 }
 .container_header{
     display:flex;
@@ -135,7 +139,8 @@ strong, azul{
 }
 /*FOOTER*/
 .bg-footer{
-    background-color: var(--bg-footer);
+    background: linear-gradient(var(--bg-footer), var(--preto));;
+    color: #fff;
 }
 .icones_fontawesome{
     width: 20px;
@@ -143,10 +148,13 @@ strong, azul{
 .icones_fontawesome_local{
     width: 15px;
 }
+.logo_footer{
+    width: 150px;
+}
 .footer-links li{
     transition: var(--transicao-principal);
     padding: 5px;
-    border: 1px solid #212529;
+    border: 1px solid #fff;
     margin: 3px;
     border-radius: 10px;
 }
@@ -154,21 +162,25 @@ strong, azul{
     transition: var(--transicao-principal);
     margin-left:5px;
     padding:2px;
-    border: #828c94 solid 1px;
+    border: 1px solid #fff;
     border-radius: 7px;
 }
     .footer-links li:hover, .footer-links-sub li:hover{
         background-color: #828c94;
+        color: #fff;
     }
     .footer-links li a, .footer-links-sub li a{
-        color: #212529;
+        color: #fff;
         font-size: 14px;
     }
     .redes-footer a{
-        color:#212529;
+        color:#fff;
     }
 
 /*BANNERS*/
+.main_background{
+    background: linear-gradient(#fefefe, #9faaae);
+}
 .container-banner{
     width: 100%;
 }
@@ -180,6 +192,7 @@ strong, azul{
     border:1px solid #aaa;
     border-radius: 20px;
     margin: 7px;
+    background-color: var(--bg-claro);
 }
 .planos img{
     width: 50px;
@@ -252,10 +265,12 @@ strong, azul{
 }
 
 /*BENEFICIOS*/
+.section_background{
+    background: linear-gradient(#9faaae, #333);
+}
 .centraliza_container_beneficios{
     margin: 0;
     padding: 0;
-    background: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +310,7 @@ strong, azul{
 }
 
 .container_beneficios .card_beneficios .face.face1 .content{
-    opacity: 0.2;
+    opacity: 0.5;
     transition: 0.5s;
 }
 
