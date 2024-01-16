@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="assets/css/quemSomos.css"><!--LINK CSS PAGINA QUEM SOMOS-->
     <link rel="stylesheet" href="assets/css/trabalheConosco.css"><!--LINK CSS PAGINA TRABALHE CONOSCO-->
     <link rel="stylesheet" href="assets/css/cobertura.css"><!--LINK CSS PAGINA QUEM SOMOS-->
+    <link rel="stylesheet" href="assets/css/servicos.css"><!--LINK CSS PAGINA QUEM SOMOS-->
     <link rel="stylesheet" href="assets/frameworks/bootstrap/bootstrap.min.css"><!--LINK BOOTSTRAP CSS-->
     <link rel="stylesheet" href="assets/frameworks/owl_carousel/owl.carousel.min.css"><!--LINK CSS OWL CAROUSEL-->
     <link rel="stylesheet" href="assets/frameworks/owl_carousel/owl.theme.default.min.css"><!--LINK OWL CAROUSEL THEME-->
