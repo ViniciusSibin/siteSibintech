@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .main-card {
+      grid-column: span 2;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .small-card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media only screen and (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main-card">
+      <h2>Sobre Nossa Empresa</h2>
+      <p>Somos uma empresa comprometida com a excelência em soluções de Tecnologia da Informação...</p>
+    </div>
+
+    <div class="small-card">
+      <h3>Missão da Empresa</h3>
+      <p>Impulsionar o sucesso de nossos clientes, oferecendo serviços de T.I. inovadores e confiáveis...</p>
+    </div>
+
+    <div class="small-card">
+      <h3>Visão da Empresa</h3>
+      <p>Ser reconhecida como líder em fornecer soluções tecnológicas que transformam negócios...</p>
+    </div>
+
+    <div class="small-card">
+      <h3>Valores da Empresa</h3>
+      <ul>
+        <li>Comprometimento</li>
+        <li>Inovação</li>
+        <li>Transparência</li>
+        <li>Colaboração</li>
+        <li>Adaptabilidade</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

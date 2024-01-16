@@ -1,23 +1,13 @@
 .all-quemsomos{
     background: linear-gradient(#9faaae, #333);
 }
-.top-quemsomos{
-    font-size: 19px;
-    color: var(--bootstrap-primary-light);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 1px 1px 3px #999;
-    background-color: #e9ecef;
-    border-radius: 5px;
-}
 .img-quemsomos{
     border-radius:5px;
 }
 .bottom-quemsomos{
-    box-shadow: 1px 1px 3px #999;
+    box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);
     background-color: #e9ecef;
-    border-radius: 5px;
+    border-radius: 65px;
 }
     .bottom-quemsomos h1{
         color: var(--bootstrap-primary-light);
@@ -33,6 +23,33 @@
         font-size: 19px;
     }
 
+.card-container {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+    .card-container h1{
+        color: var(--bootstrap-primary-light);
+    }
+    .card-container h1::after{
+        display:flex;
+        content:"";
+        background-color: var(--azul-principal);
+        height:2px;
+        width:100%;
+    }
+    .card-container p{
+        font-size: 19px;
+    }
+    .card_quemsomos {
+    flex: 0 0 calc(33.333% - 10px); 
+    box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);
+    background-color: #e9ecef;
+    border-radius: 65px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 8px;
+    }
 @media(max-width:768px){
     .bottom-quemsomos .col-4{
         display:none;
