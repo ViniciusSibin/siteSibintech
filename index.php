@@ -189,6 +189,5 @@
         });
         });
     </script><!--SCRIPT CARROSSEL PLANOS-->
-    <!-- Init code Huggy.chat  //--><script>var $_Huggy = { defaultCountry: '+55', widget_id: '2372' , company: '7444' }; (function(i,s,o,g,r,a,m){ i[r]={context:{id:'e27ff094fc1bafe46ef575c169237494'}};a=o;o=s.createElement(o); o.async=1;o.src=g;m=s.getElementsByTagName(a)[0];m.parentNode.insertBefore(o,m); })(window,document,'script','https://js.huggy.chat/widget.min.js','pwz');</script><!-- End code Huggy.chat  //-->
 </body>
 </html>
