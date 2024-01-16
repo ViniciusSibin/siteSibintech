@@ -1,11 +1,11 @@
 #contato{
-    background: var(--azul-palido);
+    background: linear-gradient(#9faaae, #333);
 }
 
 .contato-row{
-    box-shadow: 1px 1px 3px #999;
-    border-radius: 5px;
-    background-color: var(--branco);
+    box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);
+    border-radius: 65px;
+    background-color: #e9ecef;
 }
 .contato-colunas{
     display: flex;
@@ -45,42 +45,43 @@
 .contato-colunas a:hover *{
     color: var(--azul-principal);
 }
-.container_ctt_financeiro{
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+
+/*FORMULARIO CONTATO*/
+.formulario_contato input, #submit{
+    border: none;
+    outline: none;
+    display: block;
 }
-.atendimento-horarios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+.formulario_contato input {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 1em;
+    font-size: 20px;
+    padding: 1em 0 0.5em 0.5em;
+    border-bottom: 2px solid #202020;
 }
-    .atendimento-horarios h4::after{
-        display:flex;
-        position: relative;
-        content:" ";
-        height: 2px;
-        width:100%;
-        background-color: var(--azul-principal);
-    }
-    .atendimento-horarios p{
-        text-align: left;
-        font-size: 18px;
-        margin:4px 0px;
-    }
+.formulario_contato #submit {
+    position: relative;
+    left: 0;
+    font-size: 1.1em;
+    width: 7em;
+    background-color: #3492eb;
+    color: white;
+    padding: 0.8em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+}
+.formulario_contato #message-ref {
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    color: #34bd34;
+    visibility: hidden;
+  }
 
 @media(max-width: 991px){
     .contato-colunas{
         margin:12px;
         padding:5px;
-    }
-    .atendimento-horarios{
-        margin:10px;
-        border-bottom: 1px solid #aaa;
-    }
-    .container_ctt_financeiro{
-        border-left: 0px;
-        border-right: 0px;
     }
     
 }

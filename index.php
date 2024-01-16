@@ -119,6 +119,7 @@
             </div>
         </div>
     </footer><!--FOOTER-->
+    <script  src="assets/js/formulario.js"></script>
     <script src="https://kit.fontawesome.com/9b0cbbf8ae.js" crossorigin="anonymous"></script><!--FONTAWESOME LINK-->
     <script type="text/javascript" src="assets/frameworks/jquery/jquery-3.6.3.min.js"></script><!--JQUERY-->
     <script type="text/javascript" src="assets/frameworks/bootstrap/bootstrap.bundle.min.js"></script><!--BOOTSTRAP-->
