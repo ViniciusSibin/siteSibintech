@@ -74,7 +74,7 @@
             <div class="icones-redes pt-3">
                 <a href="https://www.instagram.com/sibintech/" target="_blank" title="Instagram"><img src="assets/icones/instagram.png" oncontextmenu="return false;" alt="instagram icone"></a>
                 <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><img src="assets/icones/whatsapp.png" oncontextmenu="return false;" alt="whatsapp icone"></a>
-                <a href="https://www.linkedin.com/company/sibintech/mycompany/" target="_blank"><img src="assets/icones/linkedin.png" alt="Linkedin icone" oncontextmenu="return false;"></a>
+                <a href="https://www.linkedin.com/company/sibintech/" target="_blank"><img src="assets/icones/linkedin.png" alt="Linkedin icone" oncontextmenu="return false;"></a>
             </div><!--ICONES REDES SOCIAIS-->
             <nav class="navbar-mobile">
                 <div class="dropdown-mobile">
@@ -93,7 +93,7 @@
                         <ul class="icones-redes-mobile d-flex list-unstyled"><!--ICONES REDES SOCIAIS-->
                             <li class="d-flex justify-content-center"><a href="https://www.instagram.com/sibintech/" target="_blank" title="Instagram"><img src="assets/icones/instagram.png" width="20" oncontextmenu="return false;" alt="icone instagram"></a></li>
                             <li class="d-flex justify-content-center"><a href="https://api.whatsapp.com/send?phone=55449999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><img src="assets/icones/whatsapp.png" width="20" oncontextmenu="return false;" alt="icone whatsapp"></a></li>
-                            <li class="d-flex justify-content-center"><a href="https://www.linkedin.com/company/sibintech/mycompany/" target="_blank" title="Linkedin"><img src="assets/icones/linkedin.png" width="20" oncontextmenu="return false;" alt="icone linkedin"></a></li>
+                            <li class="d-flex justify-content-center"><a href="https://www.linkedin.com/company/sibintech" target="_blank" title="Linkedin"><img src="assets/icones/linkedin.png" width="20" oncontextmenu="return false;" alt="icone linkedin"></a></li>
                         </ul>
                     </ul>
                 </div>
@@ -123,7 +123,7 @@
                     <ul class="footer-links list-unstyled">
                     <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank"><li><i class="fa-brands fa-whatsapp icones_fontawesome" class="mr-1"></i>Whatsapp</li></a>
                     <a href="https://www.instagram.com/sibintech/" target="_blank"><li><i class="fa-brands fa-instagram icones_fontawesome" class="mr-1"></i>Instagram</li></a>
-                    <a href="https://www.linkedin.com/company/mgp-telecom/mycompany/" target="_blank"><li><i class="fa-brands fa-linkedin icones_fontawesome" class="mr-1"></i>Linkedin</li></a>
+                    <a href="https://www.linkedin.com/company/sibintech" target="_blank"><li><i class="fa-brands fa-linkedin icones_fontawesome" class="mr-1"></i>Linkedin</li></a>
                     </ul>
                 </div>
             </div>
