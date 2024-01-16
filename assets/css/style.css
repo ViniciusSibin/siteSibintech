@@ -366,27 +366,6 @@ strong, azul{
     color: #fff;
 }
 
-/*ACCORDION DAS PERGUNTAS*/
-.pergunta-card{
-    background-color: #fff;
-    border: 1px solid #aaa;
-    border-bottom: 1px solid var(--azul-pergunta);
-    border-radius: 2px;
-}
-    .pergunta-card p{
-        padding: 10px;
-        margin:0px;
-    }
-    .pergunta-card i{
-        border-left: 1px solid #aaa;
-        padding-left: 15px;
-    }
-    .pergunta-card:hover i{
-        color: var(--azul-pergunta);
-    }
-.pergunta{
-    font-weight: bold;
-}
 
 /*RESPONSIVIDADE*/
 @media(max-width: 1000px){

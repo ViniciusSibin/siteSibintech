@@ -3,14 +3,15 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 3px #999;
-    background-color: var(--branco);
-    border-radius: 5px;
+    box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);
+    background-color: #e9ecef;
+    border-radius: 65px;
 }
 .bottom-tConosco{
-    box-shadow: 1px 1px 3px #999;
-    background-color: var(--branco);
-    border-radius: 5px;
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.8);
+    background-color: #e9ecef;
+    border-radius: 65px;
+    margin-top: 55px;
 }
 .area-vagas-tConosco a{
     transition: var(--transicao-principal);
