@@ -58,8 +58,16 @@
                 <ul class="list-unstyled menu_header">
                     <li><a href="index.php" title="Página inicial">Home</a></li>
                     <li><a href="index.php?pagina=contato.html" title="Contatos mgp">Contato</a></li>
-                    <li><a href="index.php?pagina=quemSomos.html" class="text-dark">Quem somos</a></li>
-                    <li><a href="index.php?pagina=cobertura.html" title="Cobertura de atendimento">Cobertura</a></li>
+                    <li><a href="index.php?pagina=quemSomos.html">Quem somos</a></li>
+                    <li><a href="#" title="Informmações sobre a MGP">Serviços<i class="fa-solid fa-angle-down pl-1"></i></a>
+                        <div class="sub-menu-1">
+                            <ul class="list-unstyled">
+                                <li><a href="index.php?pagina=monitoramentoRedes.html" class="text-dark">Monitoramento de redes</a></li>
+                                <li><a href="index.php?pagina=desenvolvimentoSites.html" class="text-dark">Desenvolvimento de sites</a></li>
+                                <li><a href="index.php?pagina=automatizacaoProcessos.html" class="text-dark">Automatização de processos</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </nav><!--NAVBAR MENU NORMAL-->
             <div class="icones-redes pt-3">
@@ -74,7 +82,13 @@
                         <li><a href="index.php" title="Página inicial">Home</a></li>
                         <li><a href="index.php?pagina=contato.html" title="Contatos MGP">Contato </a></li>
                         <li><a href="index.php?pagina=quemSomos.html">Quem somos</a></li>
-                        <li><a href="index.php?pagina=cobertura.html" title="Lojas presenciais MGP">Cobertura</a></li>
+                        <li><a href="#" title="Informmações sobre a MGP" id="click_sobre">Sobre<i class="fa-solid fa-angle-down pl-1"></i></a>
+                            <ul id="submenu-mobile" class="display_none">
+                                <li><a href="index.php?pagina=monitoramentoRedes.html">Monitoramento de redes</a></li>
+                                <li><a href="index.php?pagina=desenvolvimentoSites.html">Desenvolvimento de sites</a></li>
+                                <li><a href="index.php?pagina=automatizacaoProcessos.html">Automatização de processos</a></li>
+                            </ul>
+                        </li>
                         <ul class="icones-redes-mobile d-flex list-unstyled"><!--ICONES REDES SOCIAIS-->
                             <li class="d-flex justify-content-center"><a href="https://www.instagram.com/sibintech/" target="_blank" title="Instagram"><img src="assets/icones/instagram.png" width="20" oncontextmenu="return false;" alt="icone instagram"></a></li>
                             <li class="d-flex justify-content-center"><a href="https://api.whatsapp.com/send?phone=55449999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" title="Whatsapp"><img src="assets/icones/whatsapp.png" width="20" oncontextmenu="return false;" alt="icone whatsapp"></a></li>

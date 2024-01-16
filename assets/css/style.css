@@ -73,8 +73,9 @@ strong, azul{
             z-index: 1!important;
             display:none;
             font-weight: 300!important;
-            background-color: var(--branco);
-            box-shadow: 2px 2px 7px #999;
+            background-color: #9faaae;
+            box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
         }/*SUB-MENU NAVBAR*/
             .sub-menu-1 li{
                 margin:0;
@@ -451,7 +452,7 @@ strong, azul{
         #submenu-mobile li{
             font-weight: 200;
             padding:4px;
-            width: 40%;
+            width: 70%;
         }
         #menu-mobile li a, #menu-mobile #submenu-mobile li a{
             color: var(--preto);
