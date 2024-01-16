@@ -100,6 +100,12 @@
         </div>
     </header><!--HEADER-->
     <?php require("$pagina")?><!--Requisições das páginas por PHP-->
+    <!-- Ícone flutuante do WhatsApp -->
+    <div id="whatsapp-icon" class="whatsapp-icon">
+        <a href="https://api.whatsapp.com/send?phone=44999091762" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icones/whatsapp_colorido.png" alt="WhatsApp">
+        </a>
+    </div>
     <footer class="bg-footer">
         <div class="container  pt-3">
             <div class="row">
@@ -115,7 +121,7 @@
                     <h4>Redes sociais</h4>
                     <ul class="footer-links list-unstyled">
                     <a href="https://api.whatsapp.com/send?phone=5544999091762&text=Ol%C3%A1,%20tudo%20bem?" target="_blank"><li><i class="fa-brands fa-whatsapp icones_fontawesome" class="mr-1"></i>Whatsapp</li></a>
-                    <a href="https://www.instagram.com/mgptelecom/" target="_blank"><li><i class="fa-brands fa-instagram icones_fontawesome" class="mr-1"></i>Instagram</li></a>
+                    <a href="https://www.instagram.com/sibintech/" target="_blank"><li><i class="fa-brands fa-instagram icones_fontawesome" class="mr-1"></i>Instagram</li></a>
                     <a href="https://www.linkedin.com/company/mgp-telecom/mycompany/" target="_blank"><li><i class="fa-brands fa-linkedin icones_fontawesome" class="mr-1"></i>Linkedin</li></a>
                     </ul>
                 </div>
@@ -133,6 +139,15 @@
             </div>
         </div>
     </footer><!--FOOTER-->
+    <script>
+        setTimeout(function () {
+            // Mostra o ícone flutuante
+            document.getElementById('whatsapp-icon').style.display = 'block';
+        }, 3000);
+        document.getElementById('whatsapp-icon').addEventListener('click', function () {
+            window.open(this.querySelector('a').href, '_blank');
+        });
+    </script>
     <script  src="assets/js/formulario.js"></script>
     <script src="https://kit.fontawesome.com/9b0cbbf8ae.js" crossorigin="anonymous"></script><!--FONTAWESOME LINK-->
     <script type="text/javascript" src="assets/frameworks/jquery/jquery-3.6.3.min.js"></script><!--JQUERY-->

@@ -1,75 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      background-color: #f5f5f5;
-    }
+<!-- Carousel wrapper -->
+<div
+  id="carouselBasicExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+>
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
 
-    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .main-card {
-      grid-column: span 2;
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .small-card {
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    @media only screen and (max-width: 768px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="main-card">
-      <h2>Sobre Nossa Empresa</h2>
-      <p>Somos uma empresa comprometida com a excelência em soluções de Tecnologia da Informação...</p>
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
+        class="d-block w-100"
+        alt="Sunset Over the City"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>
+          Nulla vitae elit libero, a pharetra augue mollis interdum.
+        </p>
+      </div>
     </div>
 
-    <div class="small-card">
-      <h3>Missão da Empresa</h3>
-      <p>Impulsionar o sucesso de nossos clientes, oferecendo serviços de T.I. inovadores e confiáveis...</p>
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
+        class="d-block w-100"
+        alt="Canyon at Nigh"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
     </div>
 
-    <div class="small-card">
-      <h3>Visão da Empresa</h3>
-      <p>Ser reconhecida como líder em fornecer soluções tecnológicas que transformam negócios...</p>
-    </div>
-
-    <div class="small-card">
-      <h3>Valores da Empresa</h3>
-      <ul>
-        <li>Comprometimento</li>
-        <li>Inovação</li>
-        <li>Transparência</li>
-        <li>Colaboração</li>
-        <li>Adaptabilidade</li>
-      </ul>
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
+        class="d-block w-100"
+        alt="Cliff Above a Stormy Sea"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </div>
     </div>
   </div>
-</body>
-</html>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->

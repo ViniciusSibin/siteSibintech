@@ -2,7 +2,6 @@ let usernameRef = document.getElementById("nome_completo");
 let emailRef = document.getElementById("email");
 let phoneNumberRef = document.getElementById("celular");
 let submitBtn = document.getElementById("submit");
-let messageRef = document.getElementById("message-ref");
 
 let isUsernameValid = () => {
 /* Username should be contain more than 3 characters. Should begin with alphabetic character  Can contain numbers */
@@ -65,7 +64,4 @@ if (!isUsernameValid() || !isEmailValid() || !isPhoneNumberValid()) {
 	submitBtn.style.transform = "translateX(0)";
 	}
 }
-});
-submitBtn.addEventListener("click", () => {
-	messageRef.style.visibility = "visible";
 });
