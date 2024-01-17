@@ -48,7 +48,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><!--LINK GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--LINK GOOGLE FONTS-->
     <link rel="sortcut icon" href="assets/img/Logomarca.png"><!--ICONE DA BARRA DO NAVEGADOR-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet"><!--LINK GOOGLE FONTS-->    
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"><!--LINK GOOGLE FONTS-->    
     <title>Sibintech Monitoring</title>
 </head>
 <body>

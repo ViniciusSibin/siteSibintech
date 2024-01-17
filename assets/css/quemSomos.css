@@ -37,6 +37,7 @@
     }
     .card-container p{
         font-size: 19px;
+        text-align: center;
     }
     .card_quemsomos {
     flex: 0 0 calc(33.333% - 10px); 

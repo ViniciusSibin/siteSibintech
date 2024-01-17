@@ -230,14 +230,15 @@ strong, azul{
 }
 /*PLANOS DE INTERNET*/
 .pre_plano{
-    font-size: 45px !important;
+    font-size: 50px !important;
+    color: #333;
+    font-weight: 550;
 }
 .planos{
-    border:1px solid #aaa;
     border-radius: 20px;
     margin: 7px;
     margin-bottom: 60px;
-    background-color: var(--bg-claro);
+    background-color: #333;
     box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);
 }
 .planos:hover{
@@ -276,7 +277,6 @@ strong, azul{
     border-radius: 0px 0px 20px 20px 
 }
 .assineJa_inside{
-    background-color: var(--azul-palido);
     display:flex;
     justify-content: center;
     padding:15px 10px;
@@ -290,13 +290,15 @@ strong, azul{
     font-size: 23px;
     border-radius: 7px;
     padding:5px 70px;
-    background-color: var(--bootstrap-primary);
+    background-color: transparent;
+    border: 1px solid white;
     margin-bottom: 0px;
 }
 .assineJa_inside h4:hover{
     transition: var(--transicao-principal);
-    color: var(--branco);
-    background-color: var(--azul-principal-drk);
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ede9e9;
 }
 .container_preco{
     justify-content: center;
