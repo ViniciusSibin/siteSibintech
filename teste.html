@@ -1,100 +1,39 @@
-<!-- Carousel wrapper -->
-<div
-  id="carouselBasicExample"
-  class="carousel slide carousel-fade"
-  data-mdb-ride="carousel"
->
-  <!-- Indicators -->
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-
-  <!-- Inner -->
-  <div class="carousel-inner">
-    <!-- Single item -->
-    <div class="carousel-item active">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
-        class="d-block w-100"
-        alt="Sunset Over the City"
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>
-          Nulla vitae elit libero, a pharetra augue mollis interdum.
-        </p>
-      </div>
-    </div>
-
-    <!-- Single item -->
-    <div class="carousel-item">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
-        class="d-block w-100"
-        alt="Canyon at Nigh"
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-      </div>
-    </div>
-
-    <!-- Single item -->
-    <div class="carousel-item">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
-        class="d-block w-100"
-        alt="Cliff Above a Stormy Sea"
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- Inner -->
-
-  <!-- Controls -->
-  <button
-    class="carousel-control-prev"
-    type="button"
-    data-mdb-target="#carouselBasicExample"
-    data-mdb-slide="prev"
-  >
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next"
-    type="button"
-    data-mdb-target="#carouselBasicExample"
-    data-mdb-slide="next"
-  >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!-- Carousel wrapper -->
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulário de Contato - sibintech.com.br</title>
+        </head>
+        <body style="font-size: 15px; font-family: Arial, sans-serif; margin: 0; padding: 0;">
+        
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="center">
+                        <table width="600" border="0" cellspacing="0" cellpadding="15" style="margin: 20px 0; background-color: #DCDCDC; border: 2px solid #000; border-radius: 25px; box-shadow: 0 25px 32px rgba(0, 0, 0, 0.8);">
+                            <tr>
+                                <td align="center">
+                                    <h1 style="color: #000000;"><strong>Formulário de contato do site sibintech.com.br</strong></h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="color: #000;"><strong>Mensagem do usuário:</strong></p>
+                                    <p style="color: #000;">' . $mensagem . '</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="color: #000;"><strong>Informações do cliente:</strong></p>
+                                    <p style="color: #292626;"><strong>Nome:</strong> ' . $nome_completo . '</p>
+                                    <p style="color: #292626; text-decoration: none;"><strong>Email:</strong> ' . $email . '</p>
+                                    <p style="color: #292626;"><strong>Celular:</strong> ' . $celular . '</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        
+        </body>
+        </html>

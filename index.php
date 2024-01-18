@@ -58,7 +58,7 @@
             <nav class="navbar_all">
                 <ul class="list-unstyled menu_header">
                     <li><a href="index.php" title="Página inicial">Home</a></li>
-                    <li><a href="index.php?pagina=contato.html" title="Contatos mgp">Contato</a></li>
+                    <li><a href="index.php?pagina=contato.php" title="Contatos mgp">Contato</a></li>
                     <li><a href="index.php?pagina=quemSomos.html">Quem somos</a></li>
                     <li><a href="#" title="Informmações sobre a MGP">Serviços<i class="fa-solid fa-angle-down pl-1"></i></a>
                         <div class="sub-menu-1">
@@ -81,7 +81,7 @@
                     <i class="fa-solid fa-bars icone-menu" id="icone-menu-mobile-click"></i>
                     <ul class="list-unstyled display_none" id="menu-mobile">
                         <li><a href="index.php" title="Página inicial">Home</a></li>
-                        <li><a href="index.php?pagina=contato.html" title="Contatos MGP">Contato </a></li>
+                        <li><a href="index.php?pagina=contato.php" title="Contatos MGP">Contato </a></li>
                         <li><a href="index.php?pagina=quemSomos.html">Quem somos</a></li>
                         <li><a href="#" title="Informmações sobre a MGP" id="click_sobre">Sobre<i class="fa-solid fa-angle-down pl-1"></i></a>
                             <ul id="submenu-mobile" class="display_none">
@@ -134,7 +134,7 @@
                 <div class="col-md-6">
                     <ul class="list-unstyled footer-links-sub d-flex justify-content-end">
                         <li><a href="index.php?pagina=politicaDePrivacidade.html" class="p-1">Política de privacidade</a></li>
-                        <li><a href="index.php?pagina=contato.html" class="p-1">Fale conosco</a></li>
+                        <li><a href="index.php?pagina=contato.php" class="p-1">Fale conosco</a></li>
                     </ul>
                 </div>
             </div>

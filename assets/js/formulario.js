@@ -17,13 +17,12 @@ return emailRegex.test(emailRef.value);
 
 let isPhoneNumberValid = () => {
 /* Phone number should be in a valid format */
-const phoneRegex = /^[0-9]{10}$/;
+const phoneRegex = /^[0-9]{11}$/;
 return phoneRegex.test(phoneNumberRef.value);
 };
 
 usernameRef.addEventListener("input", () => {
 	if (!isUsernameValid()) {
-		messageRef.style.visibility = "hidden";
 		usernameRef.style.cssText = "border-color: #fe2e2e; background-color: #ffc2c2";
 	} else {
 		usernameRef.style.cssText = "border-color: #34bd34; background-color: #c2ffc2";
@@ -31,7 +30,6 @@ usernameRef.addEventListener("input", () => {
 });
 emailRef.addEventListener("input", () => {
 	if (!isEmailValid()) {
-		messageRef.style.visibility = "hidden";
 		emailRef.style.cssText = "border-color: #fe2e2e; background-color: #ffc2c2";
 	} else {
 		emailRef.style.cssText = "border-color: #34bd34; background-color: #c2ffc2";
@@ -39,7 +37,6 @@ emailRef.addEventListener("input", () => {
 });
 phoneNumberRef.addEventListener("input", () => {
 	if (!isPhoneNumberValid()) {
-		messageRef.style.visibility = "hidden";
 		phoneNumberRef.style.cssText = "border-color: #fe2e2e; background-color: #ffc2c2";
 	} else {
 		phoneNumberRef.style.cssText = "border-color: #34bd34; background-color: #c2ffc2";
