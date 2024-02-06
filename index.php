@@ -8,30 +8,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1692266261277045');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1692266261277045&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N9J3CCD');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -154,28 +130,7 @@
     <script type="text/javascript" src="assets/frameworks/jquery/jquery-3.6.3.min.js"></script><!--JQUERY-->
     <script type="text/javascript" src="assets/frameworks/bootstrap/bootstrap.bundle.min.js"></script><!--BOOTSTRAP-->
     <script type="text/javascript" src="assets/frameworks/owl_carousel/owl.carousel.min.js"></script><!--OWL CAROUSEL-->
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9J3CCD"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XWHE28R10"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-1XWHE28R10');
-        </script>
-    <!-- Fim Google tag (gtag.js) -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11021515971"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-11021515971');
-    </script>
+    
     <script>
         let icone = document.querySelector('#icone-menu-mobile-click');
         let Menu = document.querySelector('#menu-mobile');
@@ -199,6 +154,7 @@
             }
         });
     </script><!--SCRIPT TOGGLE MENU-->
+
     <script>
         $(document).ready(function(){
         $('.owl-carousel').owlCarousel({

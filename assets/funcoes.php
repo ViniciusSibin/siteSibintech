@@ -8,14 +8,15 @@ if(!function_exists("enviarEmail")){
 
         $mail = new PHPMailer;
         $mail->isSMTP();
-        $mail->SMTPDebug = 0; //Para visualizar o log do e-mail coloque o atributo com o valor 2
-        $mail->Host = 'smtp-mail.outlook.com';
+        $mail->SMTPDebug = 3; //Para visualizar o log do e-mail coloque o atributo com o valor 2
+        $mail->Host = 'smtp.office365.com';
         $mail->Port = 587;
         $mail->SMTPAuth = true;
+        $mail->AuthType = 'LOGIN';
         $mail->Username = 'vinisibim@hotmail.com.br';
         $mail->Password = 'Av!n!0306b';
 
-        $mail->SMTPSecure = false;
+        $mail->SMTPSecure = 'tls';
         $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
 
